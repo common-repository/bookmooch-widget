@@ -1,0 +1,43 @@
+=== BookMooch Widget ===
+Contributors: montanamax
+Donate link: 
+Tags: widget bookmooch
+Requires at least: 2.8
+Tested up to: 2.8
+Stable tag: trunk
+
+This plugin makes it easy to integrate widgets from [http://BookMooch.com](http://BookMooch.com) into your blog without using any code.
+
+== Description ==
+
+The BookMooch Widget simplify adding the [http://BookMooch.com](http://BookMooch.com) widgets to Wordpress websites and blogs. This widget takes advantage of the new multi-instance widget API of Wordpress version 2.8, and is not compatible with to earlier versions of Wordpress. A live demonstration of this plugin is at [http://montanamax.net/montanamax/plugins](http://montanamax.net/montanamax/plugins)
+
+
+== Installation ==
+
+1. Upload `bookmooch-widget.php` to the `/wp-content/plugins/` directory
+1. Activate the plugin through the 'Plugins' menu in WordPress
+1. Add the BookMooch widget to your sidebar using the widget admin screen.
+
+== Frequently Asked Questions ==
+
+= Why do some of the books in my listing show the covers and some show up as text links? =
+
+If the cover image file can't be loaded or a cover can't be found, a text link will display instead.
+
+== Screenshots ==
+
+1. BookMooch Widget Control Screen
+1. BookMooch Widget with Horizontal Covers
+1. BookMooch Widget with Vertical Listings
+
+== Feature Roadmap ==
+
+Version 0.1
+
+    * Initial release. All basic widget options from BookMooch are configurable in the widget.
+
+Version 0.2
+
+    * Better input error trapping
+    * More graceful handling of books without image covers
